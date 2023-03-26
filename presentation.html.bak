@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="logo.jpeg" >
+    <title>SerendibTreasures</title>
+
+    <meta charset="UTF-8">
+    <title>Presentation Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="StyleSheet/stylePresentation.css">
+    <meta http-equiv = "refresh" content = "4; url = mainpage.html" />
+</head>
+
+<body>
+
+<div class="mainDev">
+    <div class="video">
+        <video autoplay loop muted>
+            <source src="assets/video.1.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="center">
+        <div class="left">
+            <img class="logo" src="assets/logo.jpeg" alt="icon">
+            <div class="welcome">
+                <h1>Welcome to<br> Serendib Treasures</h1>
+            </div>
+        </div>
+        <div class="team">
+            <h2>Team</h2>
+            <div class="row1">
+                <div class="mem">
+                    <div class="img.div">
+                        <img class="memImage" src="assets/Team/vinura.jpeg" alt="member image">
+                    </div>
+                    <div class="memDetails">
+                        <h3>Vinura Janandith</h3>
+                        <p class="std">Student 1</p>
+                    </div>
+                </div>
+                <div class="mem">
+                    <div class="img.div">
+                        <img class="memImage" src="assets/dulmith.jpeg" alt="member image">
+                    </div>
+                    <div class="memDetails">
+                        <h3>Tharusha Dulmith</h3>
+                        <p class="std">Student 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="mem">
+                    <div class="img.div">
+                        <img class="memImage" src="assets/Team/keerthana.jpeg" alt="member image">
+                    </div>
+                    <div class="memDetails">
+                        <h3>Keerthana Giridharani</h3>
+                        <p class="std">Student 3</p>
+                    </div>
+                </div>
+                <div class="mem">
+                    <div class="img.div">
+                        <img class="memImage" src="assets/Team/nishara.jpeg" alt="member image">
+                    </div>
+                    <div class="memDetails">
+                        <h3>Nishara Samanthilake</h3>
+                        <p class="std">Student 4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

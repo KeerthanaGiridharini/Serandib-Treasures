@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="StyleSheet/Query.css">
+	<script src="Script/Query.js" async></script>
+    <link href="/your-path-to-your-compiled-css-including-fontawesome/file.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="Stylesheet">
+    <link href="/your-path-to-your-compiled-css-including-fontawesome/file.css" rel="stylesheet">
+	<link rel="icon" href="assets/icon.jpeg">
+    <title>Query | SerendibTreasures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+    <div class="bg-image"></div>
+   
+
+		<header>
+ <!-- Navigation bar -->
+    <a href="presentation.html"><img class="logo" src="assets/icon.jpeg" alt="logo">
+		<div class="navbar">
+			<a href="mainpage.html">Home </a>
+			<a href="shop.html">Shop </a>
+			<div class="dropdown">
+				<button class="dropbtn">About Sri Lanka
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="Gallery.html">Gallery</a>
+					<a href="Festival.html">Festival</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Destinations
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="locations.html">Locations</a>
+					<a href="hotels.html">Hotels</a>
+				</div>
+			</div>
+			<a href="SiteMap.html">Site Map</a>
+			<a href="Health.html">Health Guideline</a>
+			<a href="Quiz1.html">Quiz</a>
+			<a href="Query.html">Query</a>
+			<a href="ContactUs.html">Contact Us</a>
+		</div>
+</header>
+	</div>
+	
+	<!-- query form area -->
+	<div class="query-box" id="query-box">
+		<form class="form" name="form" onsubmit="return false">
+			<label class="txt label" id="type-label">Ask Us!<p> what do you need</p>  </label><br>
+
+			<input type="text" id="name" class="inputs txt" name="name" placeholder="Your Name">
+			<input type="email" id="email" class="inputs txt" name="email" placeholder="Your Email">
+
+
+		<div class="radios">
+			<label class="subject-label"><b>Arrangements needed</b> </label>
+			<input type="radio" class="radio" name="subject" id="emergency" value="Emergency">
+			<label for="emergency" class="labels">Emergency</label>
+			<input type="radio" class="radio" name="subject" id="travel" value="Travel">
+			<label for="travel" class="labels">Travel</label>
+			<input type="radio" class="radio" name="subject" id="safari" value="Safari">
+			<label for="safari" class="labels">Safari</label>
+		</div>
+			<textarea class="inputs txt question-area" name="query" placeholder="Your Question"></textarea>
+
+			<a href="" class="btn viewQuery" onclick="return verify()">
+				
+				<span class="btn-text query-btns">View Query</span>
+			</a>
+		</form>
+	</div>
+	
+	
+	<!-- details form area -->
+	<div class="details-box details-text" id="details-box">
+		<form class="filled_form" name="filled_form" action="mailto:tharusha.20210632@iit.ac.lk" method="get">
+			<h3 class="detail_box_header">Entered Details</h3>
+			<div class="border">
+				<label class="details-labels"><b>Name : </b></label> <label id="inputName"></label> <br>
+				<label class="details-labels"><b>Email : </b></label> <label id="inputEmail"></label><br>
+				
+				<label class="details-labels"><b>Arrangements needed : </b></label> <label id="inputSubject"></label><br>
+				<label class="details-labels"><b>Query Detail : </b></label> <label id="inputQuery"></label>
+			</div>
+
+			<button class="btn btn_duo send_btn" type="submit">
+				<span class="btn-icon"><ion-icon name="send-outline"></ion-icon></span>
+				<span class="btn-text query-btns">Send</span>
+			</button>
+					
+			<button class="btn btn_duo edit_btn" onclick="return edit()">
+				<span class="btn-icon"><ion-icon name="pencil-outline"></ion-icon></span>
+				<span class="btn-text query-btns">Edit</span>
+			</button>
+		</form>
+	</div>
+
+	<!-- footer area -->
+	
+	
+	<footer>
+	<div>
+		<div class="footer-content">
+			<h3>Serendib Treasures</h3>
+			<p>Vinura | Tharusha | Keerthana | Nishara</p><br>
+			<div class="logo2">
+				<a href="presentation.html"><img src="assets/logo.jpeg" alt="icon"></a>
+		    </div>
+			<br>
+			
+			<div class="logo3">
+			<a href="https://www.facebook.com/Serendib-Treasures-106938641952470/?ref=page_internal">
+            <i style="font-size:24px" class="fa">&#xf09a;</i>
+			</a>
+			<a href="https://www.instagram.com/serandib_treasures/">
+			<i style="font-size:24px" class="fa">&#xf16d;</i>
+			</a>
+			<a href="https://chat.whatsapp.com/HW9iBwxTJRzA3IV9WdHgwJ">
+			<i style="font-size:24px" class="fa">&#xf232;</i>
+			</a>
+			
+			</div>
+            			
+		</div>
+		<div class="footer_bottom">
+			<p>copyright &copy;2022 Serendib Treasures.  |  designed by<a href="pageEditors/tharusha.html">  Tharusha</a></p>
+
+		</div>
+		
+	</div>
+    </footer>
+	
+	
+	
+	</body>
+</html>

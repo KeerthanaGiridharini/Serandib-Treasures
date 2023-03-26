@@ -1,0 +1,185 @@
+<!doctype html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" type="logo" href="assets/logo.jpeg" >
+		<title> Site Map | Serandib Treasures </title>
+
+		<link rel="stylesheet" href="StyleSheet/SiteMap.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="/your-path-to-your-compiled-css-including-fontawesome/file.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+	</head>
+
+	<body>
+
+		<header>
+        <!-- Navigation bar -->
+			<a href="presentation.html"><img class="logo"  src="assets/logo.jpeg" alt="icon"></a>
+			<div class="navbar">
+				<a href="mainpage.html">Home </a>
+				<a href="shop.html">Shop </a>
+				<div class="dropdown">
+					<button class="dropbtn">About Sri Lanka
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="Gallery.html">Gallery</a>
+						<a href="Festival.html">Festival</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Destinations
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="locations.html">Locations</a>
+						<a href="hotels.html">Hotels</a>
+					</div>
+				</div>
+				<a href="SiteMap.html">Site Map</a>
+				<a href="Health.html">Health Guideline</a>
+				<a href="Quiz1.html">Quiz</a>
+				<a href="Query.html">Query</a>
+				<a href="ContactUs.html">Contact Us</a>
+			</div>
+
+        </header>
+
+		<p align="center">
+		<svg id="svgJS" width="1280" height="700">
+
+			<g>
+				<a href="mainpage.html">
+					<rect x="565" y="150" rx="20" ry="20" width="180" height="100" style="fill:darkred; stroke:black; stroke-width:5;opacity:1"></rect>
+				    <text fill="white" font-size="25" x="655" y="210" font-family="american typewriter" text-anchor="middle"> Home </text>
+			</g>
+
+                <line x1="655" y1="252" x2="655" y2="310" style="stroke:white;stroke-width:3"/>
+                <polygon points="500, 200, 562, 200" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="748, 200, 815, 200" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="110, 310, 1175, 310" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="110, 310, 110, 400" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="385, 310, 385, 400" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="655, 310, 655, 400" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="920, 310, 920, 400" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="1175, 310, 1175, 400" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="385, 480, 385, 640" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="920, 480, 920, 640" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="385, 550, 450, 550" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="385, 640, 450, 640" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="920, 550, 985, 550" stroke="white" stroke-width="3" fill="noe"/>
+                <polygon points="920, 640, 985, 640" stroke="white" stroke-width="3" fill="noe"/>
+
+
+
+			<g>
+				<a href="shop.html">
+					<rect x="27" y="400" rx="20" ry="20" width="170" height="80" style="fill:orange; stroke:black; stroke-width:5;opacity:0.8"></rect>
+				    <text fill="white" font-size="20" x="109" y="450" font-family="american typewriter" text-anchor="middle"> Shop </text>
+			</g>
+
+			<g>
+
+					<rect x="300" y="400" rx="20" ry="20" width="170" height="80" style="fill:orange; stroke:black; stroke-width:5;opacity:0.8"></rect>
+				    <text fill="white" font-size="20" x="385" y="450" font-family="american typewriter" text-anchor="middle"> About Sri Lanka </text>
+			</g>
+
+			<g>
+				<a href="Health.html">
+		            <rect x="570" y="400" rx="20" ry="20" width="170" height="80" style="fill:orange; stroke:black; stroke-width:5;opacity:0.8"></rect>
+				    <text fill="white" font-size="20" x="655" y="450" font-family="american typewriter" text-anchor="middle"> Health Guideline </text>
+			</g>
+
+			<g>
+
+		            <rect x="835" y="400" rx="20" ry="20" width="170" height="80" style="fill:orange; stroke:black; stroke-width:5;opacity:0.8"></rect>
+				    <text fill="white" font-size="20" x="920" y="450" font-family="american typewriter" text-anchor="middle"> Destination </text>
+			</g>
+
+			<g>
+				<a href="Quiz1.html">
+		            <rect x="815" y="160" rx="20" ry="20" width="170" height="80" style="fill:orange; stroke:black; stroke-width:5;opacity:0.8"></rect>
+				    <text fill="white" font-size="20" x="900" y="208" font-family="american typewriter" text-anchor="middle"> Quiz </text>
+			</g>
+
+			<g>
+				<a href="Query.html">
+		            <rect x="330" y="160" rx="20" ry="20" width="170" height="80" style="fill:orange; stroke:black; stroke-width:5;opacity:0.8"></rect>
+				    <text fill="white" font-size="20" x="415" y="208" font-family="american typewriter" text-anchor="middle"> Query </text>
+			</g>
+
+			<g>
+				<a href="ContactUs.html">
+		            <rect x="1090" y="400" rx="20" ry="20" width="170" height="80" style="fill:orange; stroke:black; stroke-width:5;opacity:0.8"></rect>
+				    <text fill="white" font-size="20" x="1180" y="450" font-family="american typewriter" text-anchor="middle"> Contact Us </text>
+			</g>
+
+			<g>
+				<a href="Gallery.html">
+		            <rect x="450" y="525" rx="20" ry="20" width="170" height="50" style="fill:firebrick; stroke:black; stroke-width:5;opacity:0.7"></rect>
+				    <text fill="white" font-size="20" x="535" y="560" font-family="american typewriter" text-anchor="middle"> Gallery </text>
+			</g>
+
+			<g>
+				<a href="Festival.html">
+		            <rect x="450" y="615" rx="20" ry="20" width="170" height="50" style="fill:firebrick; stroke:black; stroke-width:5;opacity:0.7"></rect>
+				    <text fill="white" font-size="20" x="535" y="650" font-family="american typewriter" text-anchor="middle"> Festival </text>
+			</g>
+
+			<g>
+				<a href="locations.html">
+		            <rect x="985" y="525" rx="20" ry="20" width="170" height="50" style="fill:firebrick; stroke:black; stroke-width:5;opacity:0.7"></rect>
+				    <text fill="white" font-size="20" x="1070" y="560" font-family="american typewriter" text-anchor="middle"> Location </text>
+			</g>
+
+			<g>
+				<a href="hotels.html">
+		            <rect x="985" y="615" rx="20" ry="20" width="170" height="50" style="fill:firebrick; stroke:black; stroke-width:5;opacity:0.7"></rect>
+				    <text fill="white" font-size="20" x="1070" y="650" font-family="american typewriter" text-anchor="middle"> Hotel </text>
+			</g>
+
+
+			
+
+
+		</svg>
+
+		<!-- footer area -->
+	    <footer>
+	    <div class="footer-content">
+	    	<h3>Serendib Treasures</h3>
+			<p>Vinura | Tharusha | Keerthana | Nishara</p><br>
+
+			<div class="logo2">
+				<a href="presentation.html"><img src="assets/logo.jpeg" alt="icon">
+		    </div>
+			<br>
+			
+			<div class="logo3">
+				<a href="https://www.facebook.com/Serendib-Treasures-106938641952470/?ref=page_internal"><i style="font-size:24px" class="fa">&#xf09a;</i></a>
+				<a href="https://www.instagram.com/serandib_treasures/"><i style="font-size:24px" class="fa">&#xf16d;</i></a>
+				<a href="https://chat.whatsapp.com/HW9iBwxTJRzA3IV9WdHgwJ"><i style="font-size:24px" class="fa">&#xf232;</i></a>
+			</div>
+            			
+		</div>
+
+		<div class="footer_bottom">
+			<p>copyright &copy;2021 Serendib Treasures.  |  designed by <a href="PageEditors/nishara.html">  Nishara</a></p>
+		</div>
+		
+		<button onclick="backToTop()" id="to_top_btn" title="Go to top"><ion-icon name="arrow-up-outline"></ion-icon></button>
+        </footer>     
+
+		
+	</body>
+
+
+</html>

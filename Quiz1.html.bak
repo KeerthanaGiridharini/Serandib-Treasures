@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="assets/logo.jpeg">
+    <title> Quiz | SerandibTreasurer</title>
+    <link rel="stylesheet" href="StyleSheet/quiz.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <!-- Navigation bar -->
+    <a href="presentation.html"><img class="logo"  src="assets/logo.jpeg" alt="icon"></a>
+    <div class="navbar">
+        <a href="mainpage.html">Home </a>
+        <a href="shop.html">Shop </a>
+        <div class="dropdown">
+            <button class="dropbtn">About Sri Lanka
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Gallery.html">Gallery</a>
+                <a href="Festival.html">Festival</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Destinations
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="locations.html">Locations</a>
+                <a href="hotels.html">Hotels</a>
+            </div>
+        </div>
+        <a href="SiteMap.html">Site Map</a>
+        <a href="Health.html">Health Guideline</a>
+        <a href="Quiz1.html">Quiz</a>
+        <a href="Query.html">Query</a>
+        <a href="ContactUs.html">Contact Us</a>
+    </div>
+</header>
+
+
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Welcome to Quiz</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>60 seconds(1 minute)</span> for 10 questions.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <a href="Quiz2.html"><button class="restart">Agree</button></a>
+        </div>
+    </div>
+ 
+
+<!--footer area -->
+
+
+<footer>
+    <div class="footer-content">
+        <h3>Serendib Treasures</h3>
+        <p>Vinura | Tharusha | Keerthana | Nishara</p><br>
+        <div class="logo2"> <a href="presentation.html"><img src="assets/logo.jpeg" alt="icon"></a> </div>
+        <br>
+
+        <div class="logo3">
+            <a href="https://www.facebook.com/Serendib-Treasures-106938641952470/?ref=page_internal" class="fa" style="font-size:24px" ></a> 
+            <a href="https://www.instagram.com/serandib_treasures/" style="font-size:24px" class="fa"></a> 
+            <a href="https://chat.whatsapp.com/HW9iBwxTJRzA3IV9WdHgwJ" style="font-size:24px" class="fa"> </a>
+
+        </div>
+
+    </div>
+    <div class="footer_bottom">
+        <p>copyright &copy;2022 Serendib Treasures.  |  designed by <a href="pageEditors/keerthana.html"> Keerthana</a></p>
+       
+    </div>
+</footer>
+
+<!-- Inside this JavaScript file I've coded all Quiz Codes -->
+<script src="Script/quizz.js"></script>
+    
+</body>
+
+</html>
+ 

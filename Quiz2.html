@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="icon"  href="assets/logo.jpeg">
+    <title> Quiz | SerandibTreasurer</title>
+	<link rel="stylesheet" type="text/css" href="StyleSheet/quiz1.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bd" id="bdy">
+	<header>
+		<!-- Navigation bar -->
+		<a href="presentation.html"><img class="logo"  src="assets/logo.jpeg" alt="icon"></a>
+		<div class="navbar">
+			<a href="mainpage.html">Home </a>
+			<a href="shop.html">Shop </a>
+			<div class="dropdown">
+				<button class="dropbtn">About Sri Lanka
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="Gallery.html">Gallery</a>
+					<a href="Festival.html">Festival</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Destinations
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="locations.html">Locations</a>
+					<a href="hotels.html">Hotels</a>
+				</div>
+			</div>
+			<a href="SiteMap.html">Site Map</a>
+			<a href="Health.html">Health Guideline</a>
+			<a href="Quiz1.html">Quiz</a>
+			<a href="Query.html">Query</a>
+			<a href="ContactUs.html">Contact Us</a>
+		</div>
+	</header>
+	
+	<div id="top"></div>
+	<a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+	
+	
+	<h1>Serandib Treasurer - Quiz </h1>
+	
+	<p id="arlet"></p>
+	<button id="but2" onclick="timmer()">Let's Get Start From Here</button>
+	<br>
+	<input type="button" id="but1" name="sub" value="Submit" onclick="getRadioValue()">
+	<p id="intro"></p>
+	<p id="time"></p>
+	<p id="start"></p>
+	<p id="down"></p>
+	<div class="left" id="divleft">
+		<form class="fom" name="quiz1" id="quiz1">
+		<div>
+			<p>1. What is the highest waterfall in Sri lanka ?</p>
+			<ol>
+				<li><input type="radio" name="question1" value="Diyaluma Ella" id="rad1"><label for="rad1"> a) Diyaluma Ella</label></li>
+				<li><input type="radio" name="question1" value="Dunhinda Ella" id="rad2"><label for="rad2"> b) Dunhinda Ella</label></li>
+				<li><input type="radio" name="question1" value="Babarakanda Ella" id="rad3"><label for="rad3"> c) Babarakanda Ella</label></li>
+				<li><input type="radio" name="question1" value="Rawana Ella" id="rad4"><label for="rad4"> d) Rawana Ella</label></li>
+			</ol>
+		</div>
+
+		<div>
+			<p>2. What is the longest river in Sri lanka ?</p>
+			<ol> 
+				<li><input type="radio" name="question2" value="Nilwala" id="rad5"><label for="rad5"> a) Nilwala</label></li>
+				<li><input type="radio" name="question2" value="Mahaweli" id="rad6"><label for="rad6"> b) Mahaweli</label></li>
+				<li><input type="radio" name="question2" value="Kelani" id="rad7"><label for="rad7"> c) Keleni</label></li>
+				<li><input type="radio" name="question2" value="Kirindi Oya" id="rad8"><label for="rad8"> d) Kirindi Oya</label></li>
+			</ol>
+		</div>
+
+		<div>
+			<p>3. In which distric "Ridiyagama" Safari Park located ?</p>
+			<ol>
+				<li><input type="radio" name="question3" value="Matara Distric" id="rad9"><label for="rad9"> a) Matara Distric</label></li>
+				<li><input type="radio" name="question3" value="Galle Distric" id="rad10"><label for="rad10"> b) Galle Distric</label></li>
+				<li><input type="radio" name="question3" value="Colombo Distric" id="rad11"><label for="rad11"> c) Colombo Distric</label></li>
+				<li><input type="radio" name="question3" value="Hambanthota Distric" id="rad12"><label for="rad12"> d) Hambanthota Distric</label></li>
+			</ol>
+		</div>
+
+		<div>
+			<p>4. What currency is used in Sri Lanka ?</p>
+			<ol>
+				<li><input type="radio" name="question4" value="Ruppies" id="rad13"><label for="rad13"> a) Ruppies</label></li>
+				<li><input type="radio" name="question4" value="Doller" id="rad14"><label for="rad14"> b) Doller</label></li>
+				<li><input type="radio" name="question4" value="Euro" id="rad15"><label for="rad15"> c) Euro</label></li>
+				<li><input type="radio" name="question4" value="Pound" id="rad16"><label for="rad16"> d) Pound</label></li>
+			</ol>
+		</div>
+
+		<div>
+			<p>5. How many districs in Sri Lanka ?</p>
+			<ol>
+				<li><input type="radio" name="question5" value="23" id="rad17"><label for="rad17"> a) 23</label></li>
+				<li><input type="radio" name="question5" value="29" id="rad18"><label for="rad18"> b) 29</label></li>
+				<li><input type="radio" name="question5" value="27" id="rad19"><label for="rad19"> c) 27</label></li>
+				<li><input type="radio" name="question5" value="25" id="rad20"><label for="rad20"> d) 25</label></li>
+			</ol>
+		</div>
+		</form>
+	</div>
+	<div id="divr">
+		<p id="topic"></p>
+		<p id="result"></p>
+		<p id="timeShow"></p>
+		<p id="corrections"></p>
+		<a href="Quiz2.html" class="corrections" id="re" >Play again </a>
+	</div>
+	<footer id="fote" class="fute">
+		<div class="footer-content">
+			<h3>Serendib Treasures</h3>
+			<p>Vinura | Tharusha | Keerthana | Nishara</p><br>	
+		
+		<div class="logo2"> <a href="presentation.html"><img src="assets/logo.jpeg" alt="icon"></a></div>
+
+		<br>
+		<div class="logo3">
+            <a href="https://www.facebook.com/Serendib-Treasures-106938641952470/?ref=page_internal" class="fa fa-facebook" style="font-size:24px" ></a> 
+            <a href="https://www.instagram.com/serandib_treasures/" style="font-size:24px" class="fa fa-instagram"></a> 
+            <a href="https://chat.whatsapp.com/HW9iBwxTJRzA3IV9WdHgwJ" style="font-size:24px" class="fa fa-whatsapp"> </a>
+
+        </div>
+		
+        </div>
+		<div class="footer_bottom">
+			<p>copyright &copy;2022 Serendib Treasures.  |  designed by <a href="pageEditors/keerthana.html">  Keerthana</a></p>
+		</div>
+	</footer>	
+	<div class="right" id="divright">
+		<form class="fom" name="quiz2" id="quiz2">
+		<div>
+			<p>6. Which of the following is a rain forest ?</p>
+			<ol>
+				<li><input type="radio" name="question6" value="Yala Forest" id="rad21"><label for="rad21"> a) Yala Forest</label></li>
+				<li><input type="radio" name="question6" value="Vilpaththuwa Forest" id="rad22"><label for="rad22"> b) Vilpaththuwa Forest</label></li>
+				<li><input type="radio" name="question6" value="Sinharaja Forest" id="rad23"><label for="rad23"> c) Sinharaja Forest</label></li>
+				<li><input type="radio" name="question6" value="Bundala Forest" id="rad24"><label for="rad24"> d) Bundala Forest</label></li>
+			</ol>
+		</div>
+
+		<div>
+			<p>7. What is the capital of Sri Lanka ?</p>
+			<ol>
+				<li><input type="radio" name="question7" value="Colombo" id="rad25"><label for="rad25"> a) Colombo</label></li>
+				<li><input type="radio" name="question7" value="Kandy" id="rad26"><label for="rad26"> b) Kandy</label></li>
+				<li><input type="radio" name="question7" value="Dhabulla" id="rad27"><label for="rad27"> c) Dhabulla</label></li>
+				<li><input type="radio" name="question7" value="Jayawardanepura Kotte" id="rad28"><label for="rad28"> d) Jayawardanepura Kotte</label></li>
+			</ol>
+		</div>
+
+		<div>
+			<p><b>8. Who did Sri Lanka gain their independence from ?</b></p>
+			<ol>
+				<li><input type="radio" name="question8" value="Spain" id="rad29"><label for="rad29"> a) Spain</label></li>
+				<li><input type="radio" name="question8" value="France" id="rad30"><label for="rad30"> b) France</label></li>
+				<li><input type="radio" name="question8" value="United Kingdom" id="rad31"><label for="rad31"> c) United Kingdom</label></li>
+				<li><input type="radio" name="question8" value="China" id="rad32"><label for="rad32"> d) China</label></li>
+			</ol>
+		</div>
+
+		<div>
+			<p>9. What are one of Sri Lanka's many imports ?</p>
+			<ol>
+				<li><input type="radio" name="question9" value="Petroleum" id="rad33"><label for="rad33">  a) Petroleum</label></li>
+				<li><input type="radio" name="question9" value="Cars" id="rad34"><label for="rad34"> b) Cars</label></li>
+				<li><input type="radio" name="question9" value="Minerals" id="rad35"><label for="rad35">  c) Minerals</label></li>
+				<li><input type="radio" name="question9" value="Lumber" id="rad36"><label for="rad36"> d) Lumber</label></li>
+			</ol>
+		</div>
+
+		<div>
+			<p>10. What is the official religion for Sri Lanka ?</p>
+			<ol>
+				<li><input type="radio" name="question10" value="Muslim" id="rad37"><label for="rad37"> a) Muslim</label></li>
+				<li><input type="radio" name="question10" value="Buddhism" id="rad38"><label for="rad38">  b) Buddhism</label></li>
+				<li><input type="radio" name="question10" value="Christian" id="rad39"><label for="rad39"> c) Christian</label></li>
+				<li><input type="radio" name="question10" value="Islam" id="rad40"><label for="rad40"> d) Islam</label></li>
+			</ol>
+		</div>
+	 	</form>
+	</div>
+	
+	<footer id="foot" class="fut">
+		<div class="footer-content">
+			<h3>Serendib Treasures</h3>
+        <p>Vinura | Tharusha | Keerthana | Nishara</p><br>
+        <div class="logo2"><a href="presentation.html"><img src="assets/logo.jpeg" alt="icon"></a></div>
+        <br>
+
+		<div class="logo3">
+            <a href="https://www.facebook.com/Serendib-Treasures-106938641952470/?ref=page_internal" class="fa fa-facebook" style="font-size:24px" ></a> 
+            <a href="https://www.instagram.com/serandib_treasures/" style="font-size:24px" class="fa fa-instagram"></a> 
+            <a href="https://chat.whatsapp.com/HW9iBwxTJRzA3IV9WdHgwJ" style="font-size:24px" class="fa fa-whatsapp"> </a>
+
+        </div>
+
+		</div>
+		<div class="footer_bottom">
+			<p>copyright &copy;2022 Serendib Treasures.  |  designed by <a href="pageEditors/keerthana.html"> Keerthana</a></p>
+		</div>
+	</footer>
+<script src="Script/quiz.js"></script>
+</body>
+</html>

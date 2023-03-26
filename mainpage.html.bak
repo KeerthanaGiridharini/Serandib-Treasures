@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head> 
+    <link href="StyleSheet/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/your-path-to-your-compiled-css-including-fontawesome/file.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="logo" href="assets/icon.jpeg">
+		<title> Home| Serandib Treasures </title>
+
+</head>
+<body>
+    <header> 
+	    <!-- Navigation bar -->
+		<div class="wrapper"></div>
+		<div class="logo">
+			<a href="presentation.html"><img src="assets/icon.jpeg" alt="icon"></a>
+		</div>
+		
+		<div>
+		    <ul class="nav-area">
+			    <li> <a href="mainpage.html">Home </a> </li>
+				<li> <a href="Shop.html">Shop </a> </li>
+				
+				<li>
+				<div class="dropdown">
+                <button class="dropbtn">About Srilanka
+                <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-content">
+                    <a href="Gallery.html">Gallery</a>
+                    <a href="Festival.html">Festivals</a>
+                    </div>
+                </div> 		
+				</li>
+				
+                <li>
+                <div class="dropdown">
+                <button class="dropbtn">Destinations
+                <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-content">
+                    <a href="Locations.html">Locations</a>
+                    <a href="Hotels.html">Hotels</a>
+                    </div>
+                </div> 				
+				</li>
+				
+				<li> <a href="SiteMap.html">Site Map</a> </li>
+				<li> <a href="Health.html">Health Guideline </a> </li>
+				<li> <a href="Quiz1.html">Quiz </a> </li>
+				<li> <a href="Query.html">Query </a> </li>
+				<li> <a href="ContactUs.html">Contact Us </a> </li>
+				
+		    </ul>
+			
+		</div>
+		<div class="welcome-text">
+		<h2>Tour Your Dream Destinations in <br>  Sri Lanka</h2>
+		
+		<a href="ContactUs.html">Contact us</a>
+		</div>
+		
+		<!-- Search bar -->	
+		<div class="search_bar">
+			<input type="search" id="search" class="search-bar anything" name="search"  placeholder="Shop, Gallery, Locations ..." onchange="viewPage()" />
+			
+			
+			<button type="button" class="search-btn" onclick="viewPage()">Search</button>
+		</div>
+		<!-- quick browse links -->
+	    <div class="Browse-header">
+		    <p class="Browse-header-text">Or Quick browse from here</p>
+		    <div class="browse-btns">
+			<a href="#second_section" class="btn browse-btn1">
+				<span class="btn-icon"><i class="material-icons">&#xe3d3;</i></span>
+				<span class="btn-text browse-btn-anchors">Gallery</span>
+			</a>
+
+			<a href="#third_section" class="btn browse-btn2">
+			    <span class="btn-icon"><i class="material-icons">&#xe547;</i></span>
+				<span class="btn-text browse-btn-anchors">Shop</span>			
+			</a>
+
+			<a href="#fourth_section" class="btn browse-btn3">			
+				<span class="btn-icon"><i class="material-icons">&#xe55f;</i></span>
+				<span class="btn-text browse-btn-anchors">Locations</span>			
+			</a>
+		    </div>
+	    </div>
+	</header>
+	
+	<!-- Gallery cards -->
+	<div onclick="viewPage()" id="second_section" class="containers container3">
+		<div class="container3_heading">
+			<h1><a href="Gallery.html">Gallery</a></h1>
+			<p class="description_txt" id="type-gallerySub">our recommendations for the visitors</p>
+		</div>
+
+		<div class="row1" id="row1">
+
+			<div class="gallery_card">
+				<div class="card-img">
+					<img class="card_images" src="assets/mainpage/fishing.jpg" alt="fishing image">
+				</div>
+				<div class="card-body">
+					<p>
+						<b class="description_headers">Fishing</b><br><br>
+						Sri Lanka is an island in the Indian Ocean. Fishing is one of the main occupations of the people living in coastal areas.
+						Fishing Boats used in very early times like the outrigger Canoes dugout Canoes and the Catamarans are still popular.
+					</p>
+				</div>
+			</div>
+
+			<div class="gallery_card">
+				<div class="card-img">
+					<img class="card_images" src="assets/mainpage/dancing.jpg" alt="dancing image">
+				</div>
+				<div class="card-body">
+					<p>
+						<b class="description_headers">Dancing</b><br><br>
+						Sri Lanka is home to a variety of dance styles including classical, folk and dance drama, such as Kandyan dancing. 
+						Sri Lanka has 3 main endemic dance styles which are named as Udarata, Pahatharata and Sabaragamu.
+					</p>
+				</div>
+			</div>
+
+			<div class="gallery_card">
+				<div class="card-img">
+					<img class="card_images" src="assets/mainpage/art.jpg" alt="art image">
+				</div>
+				<div class="card-body">
+					<p>
+						<b class="description_headers">Arts</b><br><br>
+						Sri Lankan art originates from religious beliefs, and is represented in many forms such as painting, sculpture, and architecture.
+						Portuguese-inspired lacework and Indonesian-inspired Batik are also notable.
+						Other popular forms of art have been influenced by both natives as well as foreign settlers.
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Shop cards -->
+	<div onclick="viewPage()" id="third_section" class="containers container4">
+		<div class="container4_heading">
+			<h1><a href="Shop.html">Shop</a></h1>
+			<p class="description_txt" id="type-shopSub">our recommendations for the visitors</p>
+		</div>
+
+		<div class="row2" id="row2">
+
+			<div class="shop_card">
+				<div class="card-img">
+					<img class="card_images" src="assets/mainpage/Shirt.jpg" alt="tshirtboys image">
+				</div>
+				<div class="card-body">
+					<p>
+						<b class="description_headers">Shirts</b><br><br>
+						Batik-shirts-Boys<br><br> Batik-shirts-Girls <br><br> Batik-Shirts-kids
+					</p>
+				</div>
+			</div>
+
+			<div class="shop_card">
+				<div class="card-img">
+					<img class="card_images" src="assets/mainpage/mask.png" alt="Masks image">
+				</div>
+				<div class="card-body">
+					<p>
+						<b class="description_headers">Masks</b><br><br>
+				        Kolam Masks<br> <br>
+						Raksha Masks<br> <br>
+						Sanni Masks<br> 
+					</p>
+				</div>
+			</div>
+
+			<div class="shop_card">
+				<div class="card-img">
+					<img class="card_images" src="assets/mainpage/cinnamon.jpeg" alt="cinnamon image">
+				</div>
+				<div class="card-body">
+					<p>
+						<b class="description_headers">Cinnamon</b><br><br>
+						Powder<br> <br>
+						Sticks<br><br>
+						Oil<br><br>
+
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Locations cards -->
+	<div onclick="viewPage()" id="fourth_section" class="containers container5">
+		<div class="container5_heading">
+			<h1><a href="locations.html">Locations</a></h1>
+			<p class="description_txt" id="type-locationSub">our recommendations for the visitors</p>
+		</div>
+
+		<div class="row3" id="row3">
+
+			<div class="location_card">
+				<div class="card-img">
+					<img class="card_images" src="assets/mainpage/sigiriya.jpg" alt="sigiriya image">
+				</div>
+				<div class="card-body">
+					<p>
+						<b class="description_headers">Sigiriya</b><br><br>
+						Sigiriya or Sinhagiri is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka. 
+						It is a site of historical and archaeological significance that is dominated by a massive column of rock approximately 180 metres (590 ft) high
+					</p>
+				</div>
+			</div>
+
+			<div class="location_card">
+				<div class="card-img">
+					<img class="card_images" src="assets/mainpage/mirissa.jpg" alt="mirissa image">
+				</div>
+				<div class="card-body">
+					<p>
+						<b class="description_headers">Mirissa</b><br><br>
+						Mirissa is a small town on the south coast of Sri Lanka, located in the Matara District of the Southern Province.
+						It is approximately 150 kilometres south of Colombo and is situated at an elevation of 4 metres above sea level. 
+						Mirissa's beach and nightlife make it a popular tourist destination.
+						It is also a fishing port and one of the island's main whale and dolphin watching locations.
+
+					</p>
+				</div>
+			</div>
+
+			<div class="location_card">
+				<div class="card-img">
+					<img class="card_images" src="assets/mainpage/temple.jpg" alt="temple image">
+				</div>
+				<div class="card-body">
+					<p>
+						<b class="description_headers">Golden Temple</b><br><br>
+						Dambulla cave temple  also known as the Golden Temple of Dambulla is a World Heritage Site (1991) in Sri Lanka, 
+						situated in the central part of the country.This site is situated 148 kilometres east of Colombo ,
+						72 kilometres north of Kandy and 43 km north of Matale
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	
+	
+
+	<!-- footer area -->
+	<footer>
+		<div class="footer-content">
+			<h3>Serendib Treasures</h3>
+			<p>Vinura | Tharusha | Keerthana | Nishara</p><br>
+			<div class="logo2">
+				<a href="presentation.html"><img src="assets/icon.jpeg" alt="icon"></a>
+		    </div>
+			<br>
+			
+			<div class="logo3">
+			<a href="https://www.facebook.com/Serendib-Treasures-106938641952470/?ref=page_internal">
+            <i style="font-size:24px" class="fa">&#xf09a;</i>
+			</a>
+			<a href="https://www.instagram.com/serandib_treasures/">
+			<i style="font-size:24px" class="fa">&#xf16d;</i>
+			</a>
+			<a href="https://chat.whatsapp.com/HW9iBwxTJRzA3IV9WdHgwJ">
+			<i style="font-size:24px" class="fa">&#xf232;</i>
+			</a>
+			
+			</div>
+            			
+		</div>
+		<div class="footer_bottom">
+			<p>copyright &copy;2022 Serendib Treasures.  |  designed by<a href="pageEditors/tharusha.html"> Tharusha</a></p>
+
+		</div>
+		
+		<button onclick="backToTop()" id="to_top_btn" title="Go to top"><ion-icon name="arrow-up-outline"></ion-icon></button>
+    </footer>
+	
+	<!-- main page script -->
+	<script>
+		var i = 0;
+		var text = ("discover the greatest destinations in the pearl of \n indian ocean.");
+		var speed = 60;
+
+		var mybutton = document.getElementById("to_top_btn");
+
+		// When the user scrolls down 400px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+  			if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    			mybutton.style.display = "block";
+  			} else {
+    			mybutton.style.display = "none";
+  			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function backToTop() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+
+		function viewPage() {
+			var userSearch = document.getElementById("search").value;
+
+			if (userSearch === "Shop") {
+				window.open("Shop.html");
+			}
+			if (userSearch === "shop") {
+				window.open("Shop.html");
+			}
+
+			if (userSearch === "Locations") {
+				window.open("locations.html")
+			}
+			if (userSearch === "locations") {
+				window.open("locations.html")
+			}
+
+			if (userSearch === "Gallery") {
+				window.open("Gallery.html")
+			}
+			if (userSearch === "gallery") {
+				window.open("Gallery.html")
+			}
+		}
+	</script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	</body>
+</html>

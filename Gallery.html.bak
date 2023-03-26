@@ -1,0 +1,658 @@
+<!doctype html>	
+	<html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<link rel="icon" type="logo" href="logo.jpeg">
+    	<title> Gallery | Serandib Treasures </title>
+
+    	<link rel="stylesheet" href="StyleSheet/Gallery.css">
+    	<link href="/your-path-to-your-compiled-css-including-fontawesome/file.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="Stylesheet">
+	    <link href="/your-path-to-your-compiled-css-including-fontawesome/file.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+    </head>
+
+    <body>
+
+    	<header>
+        <!-- Navigation bar -->
+			<a href="presentation.html"><img class="logo"  src="assets/logo.jpeg" alt="icon"></a>
+			<div class="navbar">
+				<a href="mainpage.html">Home </a>
+				<a href="shop.html">Shop </a>
+				<div class="dropdown">
+					<button class="dropbtn">About Sri Lanka
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="Gallery.html">Gallery</a>
+						<a href="Festival.html">Festival</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Destinations
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="locations.html">Locations</a>
+						<a href="hotels.html">Hotels</a>
+					</div>
+				</div>
+				<a href="SiteMap.html">Site Map</a>
+				<a href="Health.html">Health Guideline</a>
+				<a href="Quiz1.html">Quiz</a>
+				<a href="Query.html">Query</a>
+				<a href="ContactUs.html">Contact Us</a>
+			</div>
+
+        </header>
+        
+        <div class="space">
+    	<h1 style="text-align: center;"> Welcome to the heaven on earth! </h1>
+        </div>
+    	<p style="font-size:20px;" align="center">Background Colour :</p> <!-- change background colour-->
+			<p align="center">
+			<select class="scolor" onchange="color(this.value)" width="100px">
+				<option value="White">White</option>
+				<option value="darkred">Red</option>
+				<option value="seagreen">Green</option>
+				<option value="lightpink">Pink</option>
+				<option value="Purple">Purple</option>
+				<option value="skyblue">Blue</option>
+				<option value="Black">Black</option>
+			</select>
+			<script>
+				function color(value){
+					document.body.style.backgroundColor=value;
+				}
+			</script>
+			</p>
+			
+		<p style="font-size:20px;" align="center">Font Colour :</p>	<!-- change font colour-->
+		<p align="center">	
+		<select class="scolor" id="colorChanger" onchange="changeColor(this.value)" width="100px">
+			<option value="Black">Black</option>
+			<option value="White">White</option>
+			<option value="darkred">Red</option>
+			<option value="seagreen">Green</option>
+			<option value="lightpink">Pink</option>
+			<option value="Purple">Purple</option>
+			<option value="skyblue">Blue</option>
+				
+		</select>
+		<script>
+			function changeColor() {
+				var selectedtxtColor = document.getElementById("colorChanger").value;
+					
+				document.body.style.color = selectedtxtColor;	
+					
+			}
+		</script>
+		</p>
+
+    	<div class="container">
+    	    <img class="background" src="assets/Gallery/scenic.jpg" alt="background picture">
+    	    <div class="text-block"> 
+                <h1> SCENIC </h1>
+                <p> Few destinations offer such diversity in scenery and habitats as Sri Lanka and as your journey through this charming tropical paradise you will understand why. Escape to the cooler climes for a lush realm of rolling hills carpeted with tea plantations and scattered with gushing waterfalls. Roam the grassy plains and relish the vibrant flora and fauna. From sunrise to sunset, we welcome you to a picturesque wonderland of scenic treasures. </p>
+            </div>
+        </div>
+
+            <div class="row1">
+
+            
+				<div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/tea1.jpg" alt="Tea Country">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Tea Country </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/central1.jpg" alt="The Central Highlands">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> The Central Highlands </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/nationalpark1.jpg" alt="National Parks and Sanctuaries">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> National Parks & Sanctuaries </b>
+			        </div>
+			    </div>
+
+			</div>
+
+			<div class="row2">
+
+            
+				<div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/waterfalls1.webp" alt="Waterfalls">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Waterfalls </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/rivers&lakes1.jpg" alt="Rivers and Lakes">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Rivers and Lakes </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/urban1.jpg" alt="Urban Landscape">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Urban Landscape </b>
+			        </div>
+			    </div>
+
+			</div>
+
+			<div class="row3">
+
+            
+				<div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/village1.jpg" alt="Village Charm">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Village Charm </b>
+			        </div>
+			    </div>
+
+			</div>
+        
+        <div class="container">
+    	    <img class="background" src="assets/Gallery/essence.png" alt="background picture">
+    	    <div class="text-block"> 
+                <h1> ESSENCE </h1>
+                <p> Owned to its multicultural heritage, the island of Sri Lanka is enriched with a vibrant and diverse way of life. The friendly people of Sri Lanka are more than happy to introduce you to the mouthwatering cuisine, magnificent arts, captivating dances, toe tapping music and dazzling parades and festivals. Immerse yourself in the lively surrounding as you explore the characteristic and happy-go-lucky wonderland that is Sri Lanka. </p>
+            </div>
+        </div>
+
+            <div class="row4">
+
+            
+				<div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/cuisine1.jpg" alt="Cuisine">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Cuisine </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/arts1.jpg" alt="Arts and Crafts">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Arts and Crafts </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/dance1.jpg" alt="Song and Dance">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Song and Dance </b>
+			        </div>
+			    </div>
+
+			</div>
+
+			<div class="row5">
+            
+				<div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/img1.jpg" alt="Community Tourism">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Community Tourism </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/shopping1.jpg" alt="Shopping">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Shopping </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/gem1.jpg" alt="Gem Stones and Jewellary">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Gem Stones and Jewellary </b>
+			        </div>
+			    </div>
+
+			</div>
+
+		<div class="container">
+    	    <img class="background" src="assets/Gallery/bliss.jpg" alt="background picture">
+    	    <div class="text-block"> 
+                <h1> BLISS </h1>
+                <p> From the calm seashore to the mountains, Sri Lanka is a haven of bliss. Where on this magical island you may be, you will be sure to come across a peaceful retreat that relaxes and rejuvenates. Indulge in ancient Ayurvedic healing or surrender your senses to a calming spa sojourn. Beat the stress with yoga or soothe your mind with maditation. Whatever your desire, the tranquil oasis of Sri Lanka offers numerous sanctuaries of bliss, helping you unwind-mind, body and soul. </p>
+            </div>
+        </div>	
+            
+            <div class="row6">
+
+            
+				<div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/ayurveda1.jpg" alt="Ayurveda">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Ayurveda </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/meditation1.jpg" alt="Meditation">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Meditation </b>
+			        </div>
+			    </div>
+
+			    <div class="festival_card">
+			        <div class="card_img">
+				        <img class="card_img" src="assets/Gallery/yoga1.webp" alt="Yoga">
+			        </div>
+			        <div class="card_body">
+			    	<p>
+			    	<b class="topic"> Yoga </b>
+			        </div>
+			    </div>
+
+			</div>
+        
+        <!-- Container for the image gallery -->
+			<div class="container">
+
+			  <!-- Full-width images with number text -->
+			  <div class="mySlides">
+			    <div class="numbertext">1 / 6</div>
+			      <img src="assets/Gallery/tea2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">2 / 6</div>
+			      <img src="assets/Gallery/tea3.webp" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">3 / 6</div>
+			      <img src="assets/Gallery/central2.png" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">4 / 6</div>
+			      <img src="assets/Gallery/central3.webp" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">5 / 6</div>
+			      <img src="assets/Gallery/nationalpark2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">6 / 6</div>
+			      <img src="assets/Gallery/nationalpark3.png" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">7 / 6</div>
+			      <img src="assets/Gallery/waterfalls2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">8 / 6</div>
+			      <img src="assets/Gallery/waterfalls2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">9 / 6</div>
+			      <img src="assets/Gallery/rivers&lakes2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">10 / 6</div>
+			      <img src="assets/Gallery/rivers&lakes3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">11 / 6</div>
+			      <img src="assets/Gallery/urban2.jpeg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">12 / 6</div>
+			      <img src="assets/Gallery/urban3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">13 / 6</div>
+			      <img src="assets/Gallery/village2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">14 / 6</div>
+			      <img src="assets/Gallery/village3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">15 / 6</div>
+			      <img src="assets/Gallery/cuisine2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">16 / 6</div>
+			      <img src="assets/Gallery/cuisine3.jpeg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">17 / 6</div>
+			      <img src="assets/Gallery/arts2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">18 / 6</div>
+			      <img src="assets/Gallery/arts3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">19 / 6</div>
+			      <img src="assets/Gallery/dance2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">20 / 6</div>
+			      <img src="assets/Gallery/dance3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">21 / 6</div>
+			      <img src="assets/Gallery/img2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">22 / 6</div>
+			      <img src="assets/Gallery/img3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">23 / 6</div>
+			      <img src="assets/Gallery/shopping2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">24 / 6</div>
+			      <img src="assets/Gallery/shopping3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">25 / 6</div>
+			      <img src="assets/Gallery/gem2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">26 / 6</div>
+			      <img src="assets/Gallery/gem3.webp" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">27 / 6</div>
+			      <img src="assets/Gallery/ayurveda2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">28 / 6</div>
+			      <img src="assets/Gallery/ayurveda3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">29 / 6</div>
+			      <img src="assets/Gallery/meditation2.png" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">30 / 6</div>
+			      <img src="assets/Gallery/meditation3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">31 / 6</div>
+			      <img src="assets/Gallery/yoga2.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">32 / 6</div>
+			      <img src="assets/Gallery/yoga3.jpg" width="800px" height="500px" class="center">
+			  </div>
+
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			  <!-- Image text -->
+			  <div class="caption-container">
+			  	<p id="caption"></p>
+			  </div>
+
+			  <!-- Thumbnail images -->
+			  <div class="row">
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/tea2.jpg" width="218px" height="120px" onclick="currentSlide(1)" alt="Tea Country">
+			    </div>
+			    <div class="column"> 
+			      <img class="demo cursor" src="assets/Gallery/tea3.webp" width="218px" height="120px" onclick="currentSlide(2)" alt="Tea Country">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/central2.png" width="218px" height="120px" onclick="currentSlide(3)" alt="The Central Highlands">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/central3.webp" width="218px" height="120px" onclick="currentSlide(4)" alt="The Central Highlands">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/nationalpark2.jpg" width="218px" height="120px" onclick="currentSlide(5)" alt="National Parks and Sanctuaries">
+			    </div> 
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/nationalpark3.png" width="218px" height="120px" onclick="currentSlide(6)" alt="National Parks and Sanctuaries">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/waterfalls2.jpg" width="218px" height="120px" onclick="currentSlide(7)" alt="Waterfalls">
+			    </div>
+			    <div class="column"> 
+			      <img class="demo cursor" src="assets/Gallery/waterfalls3.jpg" width="218px" height="120px" onclick="currentSlide(8)" alt="Waterfalls">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/rivers&lakes2.jpg" width="218px" height="120px" onclick="currentSlide(9)" alt="Rivers and Lakes">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/rivers&lakes3.jpg" width="218px" height="120px" onclick="currentSlide(10)" alt="Rivers and Lakes">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/urban2.jpeg" width="218px" height="120px" onclick="currentSlide(11)" alt="Urban Landscape">
+			    </div> 
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/urban3.jpg" width="218px" height="120px" onclick="currentSlide(12)" alt="Urban Landscape">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/village2.jpg" width="218px" height="120px" onclick="currentSlide(13)" alt="Village Charm">
+			    </div>
+			    <div class="column"> 
+			      <img class="demo cursor" src="assets/Gallery/village3.jpg" width="218px" height="120px" onclick="currentSlide(14)" alt="Village Charm">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/cuisine2.jpg" width="218px" height="120px" onclick="currentSlide(15)" alt="Cuisine">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/cuisine3.jpeg" width="218px" height="120px" onclick="currentSlide(16)" alt="Cuisine">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/arts2.jpg" width="218px" height="120px" onclick="currentSlide(17)" alt="Arts and Crafts">
+			    </div> 
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/arts3.jpg" width="218px" height="120px" onclick="currentSlide(18)" alt="Arts and Crafts">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/dance2.jpg" width="218px" height="120px" onclick="currentSlide(19)" alt="Song and Dance">
+			    </div>
+			    <div class="column"> 
+			      <img class="demo cursor" src="assets/Gallery/dance3.jpg" width="218px" height="120px" onclick="currentSlide(20)" alt="Song and Dance">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/img2.jpg" width="218px" height="120px" onclick="currentSlide(21)" alt="Community Tourism">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/img3.jpg" width="218px" height="120px" onclick="currentSlide(22)" alt="Community Tourism">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/shopping2.jpg" width="218px" height="120px" onclick="currentSlide(23)" alt="Shopping">
+			    </div> 
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/shopping3.jpg" width="218px" height="120px" onclick="currentSlide(24)" alt="Shopping">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/gem2.jpg" width="218px" height="120px" onclick="currentSlide(25)" alt="Gem Stones and Jewellary">
+			    </div>
+			    <div class="column"> 
+			      <img class="demo cursor" src="assets/Gallery/gem3.webp" width="218px" height="120px" onclick="currentSlide(26)" alt="Gem Stones and Jewellary">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/ayurveda2.jpg" width="218px" height="120px" onclick="currentSlide(27)" alt="Ayurveda">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/ayurveda3.jpg" width="218px" height="120px" onclick="currentSlide(28)" alt="Ayurveda">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/meditation2.png" width="218px" height="120px" onclick="currentSlide(29)" alt="Meditation">
+			    </div> 
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/meditation3.jpg" width="218px" height="120px" onclick="currentSlide(30)" alt="Meditation">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor" src="assets/Gallery/yoga2.jpg" width="218px" height="120px" onclick="currentSlide(31)" alt="Yoga">
+			    </div>
+			    <div class="column"> 
+			      <img class="demo cursor" src="assets/Gallery/yoga3.jpg" width="218px" height="120px" onclick="currentSlide(32)" alt="Yoga">
+			    </div>
+			    
+
+			  </div>
+			</div>
+
+			<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				// Next/previous controls
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				// Thumbnail image controls
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("demo");
+				  var captionText = document.getElementById("caption");
+				  if (n > slides.length) {slideIndex = 1}
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				    slides[i].style.display = "none";
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				    dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";
+				  dots[slideIndex-1].className += " active";
+				  captionText.innerHTML = dots[slideIndex-1].alt;
+				}
+			</script>
+
+			<!-- footer area -->
+		    <footer>
+				<div>
+				<div class="footer-content">
+				<h3>Serendib Treasures</h3>
+				<p>Vinura | Tharusha | Keerthana | Nishara</p><br>
+				<div class="logo2">
+					<a href="presentation.html"><img src="assets/logo.jpeg" alt="icon"></a>
+				   </div>
+				<br>
+
+				<div class="logo3">
+				<a href="https://www.facebook.com/Serendib-Treasures-106938641952470/?ref=page_internal">
+				            <i style="font-size:24px" class="fa">&#xf09a;</i>
+				</a>
+				<a href="https://www.instagram.com/serandib_treasures/">
+				<i style="font-size:24px" class="fa">&#xf16d;</i>
+				</a>
+				<a href="https://chat.whatsapp.com/HW9iBwxTJRzA3IV9WdHgwJ">
+				<i style="font-size:24px" class="fa">&#xf232;</i>
+				</a>
+
+				</div>
+				            
+				</div>
+				<div class="footer_bottom">
+				<p>copyright &copy;2022 Serendib Treasures.  |  designed by<a href="pageEditors/nishara.html"> Nishara </a></p>
+
+				</div>
+
+				</div>
+	        </footer>
+
+	        <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
+	        
+    	
+    </body>
+
+</html>
