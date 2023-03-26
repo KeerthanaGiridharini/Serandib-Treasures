@@ -1,0 +1,655 @@
+body{
+    background:non;
+    background-repeat: repeat;
+}
+/*------------------------header-----------------------*/
+
+header{
+  position: absolute;
+  top: 0; left:0;right:0;
+  display:flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+
+  background: #36718F;
+  z-index:1;
+  font-family:Poppins;
+
+}
+.logo{
+ width:100px;
+ 	float: left;
+ 	height: auto;
+ 	background: rgba(0,0,0,0.5);
+ 	border-radius:50%;
+}
+.navbar {
+  overflow: hidden;
+  padding-top:15px;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius:5px ;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Poppins;
+  margin: 0;
+  border-radius:5px ;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color:black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*------------------------body--------------------*/
+.container{
+    max-width:100%;
+    margin :0 auto;
+    background: non;
+    font-size:24px;
+    padding-top:115px;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+    margin-top:100px;
+
+}
+.welcome{
+    background:url('yaka2.jpg') no-repeat center;
+    background-size:cover;
+    background-attachment:fixed;
+    width:100%;
+    height:70vh;
+
+    position: absloute;
+    text-align:center;
+    color: #581845;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+
+}
+.text{
+    font-family:Fantasy;
+    padding-top: 140px;
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #36718F;
+  bottom: 40px;
+  right: 10px;
+  border-radius:25px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+
+.category{
+  position:sticky;
+  top: 0; left:0;right:0;
+  display:flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+  background-color:#36718F;
+  z-index:1;
+  color:white;
+  margin-top:5px;
+}
+
+.itemAnchor{
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 20px;
+  border-radius:3px ;
+  line-height: 80px;
+  text-decoration:none;
+}
+.clothing{
+    max-width:100%;
+    margin-top :10px ;
+    background: non;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.topic{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:50px;
+    padding-right:50px;
+    font-family: "Comic Sans MS";
+    font-size:50px;
+}
+.cloth{
+    background:url('shop.jpg');
+    background-size:cover;
+    width:100%;
+    height:70vh;
+
+    position: absloute;
+    text-align:center;
+    color: Black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content - around;
+    flex-flow:wrap;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow:wrap;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.item{
+    border-radius:15px;
+    height: 450px;
+    width: 50px;
+    flex-basis:30%;
+    min-width:50px;
+    margin-bottom:30px;
+    margin-left:20px;
+    margin-right:20px;
+    border-style: solid;
+    transition:transform 0.2s;
+    text-align:center;
+    font-size:24px;
+    font-family:"Poppins", Arial, sans-serif;
+    background-COLOR:WHITE;
+
+}
+.item:hover{
+    	transform: scale(1.1);
+    	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.35);
+
+}
+.btnItem{
+  border-radius:20px;
+  background-color: #36718F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+}
+.btnItem:hover{
+ background-color: red;
+}
+.itemImg{
+    width:90%;
+    height:70%;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:black;
+
+}
+
+.maskShop{
+    max-width:100%;
+    margin :0 auto;
+    background: non;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.maskEntry{
+    background:url('mask.png');
+    background-size:cover;
+    width:100%;
+    height:70vh;
+    padding-left:20px;
+
+    position: absloute;
+    text-align:center;
+    color:#59089F ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.artShop{
+    max-width:100%;
+    margin :0 auto;
+    background: non;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.artEntry{
+    background:url('art.jpg');
+    background-size:cover;
+    width:100%;
+    height:70vh;
+    padding-left:20px;
+
+    position: absloute;
+    text-align:center;
+    color: green;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.suvShop{
+    margin :0 auto;
+    background: non;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.suvEntry{
+    background:url('suv.jpeg');
+    background-size:cover;
+    width:100%;
+    height:70vh;
+    padding-left:20px;
+
+    position: absloute;
+    text-align:center;
+    color: green;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.spiceShop{
+    margin :0 auto;
+    background: non;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.spiceEntry{
+    background:url('spices.jpg');
+    background-size:cover;
+    width:100%;
+    height:70vh;
+    padding-left:20px;
+
+    position: absloute;
+    text-align:center;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+
+/*------------------------------------login------------------------*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: non;
+}
+.cancelbtn:hover {
+  background-color: red;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+.imgSize{
+height: 300px;
+width: 300px;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/*-----------------------cart-------------------------*/
+
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-remove {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-remove:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    border-radius: 8px;
+}
+.btn-purchase:hover {
+    background-color: green;
+}
+.btn-purchase:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.name{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size:20px;
+}
+
+.shop-item-details{
+    font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        font-size:20px;
+}
+::selection{
+  background: orange;
+  color: #fff;
+}
+.info1{
+  font-size:40px;
+  text-align:left;
+  padding-left:20px;
+  justify-content:left;
+}
+.info2{
+  font-size:40px;
+  text-align:right;
+  padding-left:60px;
+  justify-content:right;
+}
+
+
+
+
+
+
+/* -----------------------footer styles --------------------------------------- */
+footer {
+    left:0;
+	position: absolute;
+	margin-top: 50px;
+	margin-bottom: 0;
+	background: #36718F;
+	height: auto;
+	width: 100%;
+	font-family: "Poppins", Arial, sans-serif;
+	padding-top: 40px;
+	padding-left:0px;
+	color: #fff;
+	z-index:-1;
+
+}
+
+.footer-content {
+
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-content h3 {
+	font-size: 30px;
+	font-family: monospace;
+}
+
+.footer-content p {
+	display: flex;
+	margin: 10px auto;
+	font-size: 14px;
+	font-family:monospace;
+
+}
+
+.footer_bottom {
+	margin-top: 40px;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.footer_bottom p {
+	text-align: center;
+	font-size: 14px;
+	word-spacing: 2px;
+	color:white;
+	padding-bottom:20px;
+}
+
+.footer_bottom span {
+	opacity: .5;
+}
+.footer_bottom a{
+    color: black;
+    text-decoration:none;
+}
+.footer_bottom a:hover{
+    color:#00ff00;
+}
+.logo2 img{
+	width:100px;
+	float: left;
+	height: auto;
+	background: rgba(0,0,0,0.5);
+	border-radius:50px;
+}
+.logo3 fa{
+	display: inline-flex;
+	width:50px;
+	height:50px;
+    display: inline-block;
+    padding-left: 3em;
+	padding: 5px;
+	z-index:1;
+}
+.logo3 i{
+    color:white;
+	padding: 5px;
+}
+.logo3 i:hover{
+    color:black;
+}

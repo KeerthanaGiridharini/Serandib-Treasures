@@ -1,0 +1,429 @@
+.container{
+	position: relative;
+}
+
+.space{
+	margin-top: 120px;
+}
+
+.background{
+	height: 400px;
+	width: 100%;
+	-webkit background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 30px;
+  object-fit: cover;
+}
+
+.text-block {
+	position: absolute;
+    top: 50px;
+    left: 40px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    opacity: 0.8;
+    width: 600px;
+}
+
+/* drop down menu designs*/
+.scolor{
+	font-size:15px;
+    width:100px;
+    padding:8px 12px;
+    border:solid #dddddd;
+    border-radius:5px;
+    background-color:#eeeeee;
+    cursor:pointer;
+    color: black;
+}
+
+.scolor:focus,
+.scolor:hover{
+	outline:none;
+    border:3px solid darkblue;
+}
+
+.festival_card{
+	width: 30%;
+	background: whitesmoke;
+	margin-bottom: 50px;
+	transition: 0.3s;
+}
+
+.festival_card:hover{
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+	background-color:cadetblue;
+}
+
+
+.card_img{
+	width: 100%;
+	height: 250px;
+	margin-top: 0px;
+	margin-bottom: 17px;
+}
+
+.card_body{
+	padding: 5px 5px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.topic{
+	margin-bottom: 10px;
+}
+
+.row1{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: black;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+.row2{
+	display: flex;
+	flex-direction: black;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+.row3{
+	display: flex;
+	flex-direction: black;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+.row4{
+	display: flex;
+	flex-direction: black;
+	justify-content: space-around;
+	flex-flow: wrap;
+	margin-top: 50px;
+}
+
+.row5{
+	display: flex;
+	flex-direction: black;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+.row6{
+	display: flex;
+	flex-direction: black;
+	justify-content: space-around;
+	flex-flow: wrap;
+	margin-top: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 23%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 19.3%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev{
+  right: 77.4%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding-top: 0.1px;
+  padding-bottom: 1px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.center{
+	display: block;
+	margin: auto;
+}
+
+/* footer styles */
+footer {
+  position: absolute;
+  margin-top: 800px;
+  margin-bottom: 0;
+  background: #36718F;
+  height: auto;
+  width: 100%;
+  font-family: "Poppins", Arial, sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-content h3 {
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.footer-content p {
+  display: flex;
+  margin: 10px auto;
+  font-size: 14px;
+  font-family:monospace;
+}
+
+.footer_bottom {
+  margin-top: 50px;
+  width: 100%;
+  padding: 10px ;
+}
+
+.footer_bottom p {
+  text-align: center;
+  font-size: 14px;
+  word-spacing: 2px;
+  color:white;
+  padding-bottom:20px;
+}
+
+.footer_bottom p a{
+  text-decoration:none;
+  color:black;
+}
+
+.footer_bottom p a:hover{
+  color:#00FF00;
+  text-decoration:none;
+}
+
+.footer_bottom span {
+  opacity: .5;
+}
+
+.logo2 img{
+  width:100px;
+  float: left;
+  height: auto;
+  background: rgba(0,0,0,0.5);
+  border-radius:50px;
+}
+
+.logo3 fa{
+  display: inline-flex;
+  width:50px;
+  height:50px;
+  display: inline-block;
+  padding-left: 3em;
+  padding: 5px;
+}
+
+.logo3 i{
+  padding: 5px;
+}
+
+.logo3 a{
+  color:white;
+  text-decoration:none;
+}
+
+.logo3 a:hover{
+  color:black;
+}
+
+
+
+/* back to top button styles */
+#to_top_btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #3DA4FF;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#to_top_btn:hover {
+    background-color: #f85959;
+}
+
+header{
+  position: absolute;
+  top: 0; left:0;right:0;
+  display:flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+  background: #36718F;
+  z-index:1;
+  font-family:Poppins;
+
+}
+.logo{
+ width:100px;
+ 	float: left;
+ 	height: auto;
+ 	background: rgba(0,0,0,0.5);
+ 	border-radius:50%;
+}
+.navbar {
+  overflow: hidden;
+  padding-top: 15px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Poppins;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color:black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* back to top button styles */
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #36718F;
+  bottom: 40px;
+  right: 50px;
+  border-radius:25px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}

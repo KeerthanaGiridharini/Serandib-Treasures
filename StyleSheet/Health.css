@@ -1,0 +1,438 @@
+header{
+  position: absolute;
+  top: 0; left:0;right:0;
+  display:flex;
+  justify-content: space-between;
+  padding: 0px 0px;
+  background: #36718F;
+  z-index:1;
+  font-family:Poppins;
+
+}
+.logo{
+ width:100px;
+ 	float: left;
+ 	height: auto;
+ 	background: rgba(0,0,0,0.5);
+ 	border-radius:50%;
+}
+.navbar {
+  overflow: hidden;
+  padding-top: 15px;
+ 
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+   font-family:poppins;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Poppins;
+  margin: 0;
+  
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color:black;
+  border-radius:8px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Section 1 body part*/
+.section1{
+	
+}
+.section1 img{
+	width:1500px;
+	height:800px;
+}
+
+/* part1*/
+
+
+.container3 {
+	background: #f8faff;
+	margin-top: 1000px;
+	width: 90%;
+	margin: 50px auto;
+	font-family:"Poppins", Arial, sans-serif;
+}
+
+h1 {
+	padding-top: 30px;
+	margin-left: 75px;
+	margin-bottom: 0;
+	font-family: helvetica;
+	font-size: 40px;
+	color: red;
+	font-weight: 500;
+	text-align:center;
+}
+
+#type-NewsSub {
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin-left: 75px;
+	color: black;
+}
+
+.row1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+	padding-top:10px;
+}
+
+.News_card {
+	width: 25%;
+	background: #fff;
+	margin-bottom: 50px;
+	transition: 0.3s;
+    display:inline-flex-direction;
+}
+
+.News_card:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.35);
+	background:	#48D1CC;
+	color: white;
+	font-weight: 700;
+}
+
+.card_images {
+	width: 100%;
+	height: 200px;
+}
+
+.description_headers {
+	margin-bottom: 10px;
+}
+
+.card-img {
+
+}
+
+.card-body {
+	padding: 30px 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 200;
+}
+.card-body a{
+	text-decoration:none;
+	color:black;
+}
+.card-body a:hover{
+	color:#ffff4d;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container3 {
+		width: 100%;
+    }
+
+    .News_card {
+		width: 80%;
+    }
+}
+/* Section2 */
+.section2{
+	display:flex;
+	flex-direction:row;
+}
+
+#pic{
+	width:700px;
+	padding-right:10px;
+	padding-top:90px;
+	
+}
+.list{
+	padding-top:70px;
+	padding-left:50px;
+	padding-bottom:200px;
+	font-size:20px;
+	font-family:Comic Sans MS;
+	
+	
+}
+.list a{
+	text-decoration:none;
+	color:red;
+}
+.list a:hover{
+	color:black;
+}
+
+.container4 {
+	background: #f8faff;
+	margin-top: 100px;
+	width: 50%;
+	margin: 50px auto;
+	font-family:"Poppins", Arial, sans-serif;
+}
+/* covid-19  */
+.container4 {
+	background: #f8faff;
+	margin-top: 1000px;
+	width: 90%;
+	margin: 50px auto;
+	font-family:"Poppins", Arial, sans-serif;
+	
+}
+
+h1 {
+	padding-top: 30px;
+	margin-left: 75px;
+	margin-bottom: 0;
+	font-family: helvetica;
+	font-size: 40px;
+	color: black;
+	font-weight: 500;
+}
+
+#type-covidSub {
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin-left: 75px;
+	color: black;
+}
+
+.row3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+	padding-top:10px;
+}
+
+.covid_card {
+	width: 25%;
+	background: #fff;
+	margin-bottom: 50px;
+	transition: 0.3s;
+	
+}
+
+.covid_card:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.35);
+	background: #00FF7F;
+	color: black;
+	font-weight: 700;
+}
+
+.card_images {
+	width: 100%;
+	height: 200px;
+}
+
+.description_headers {
+	margin-bottom: 10px;
+}
+
+.card-img {
+
+}
+
+.card-body {
+	padding: 30px 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 200;
+	font-family:cursive;
+}
+
+@media screen and (max-width: 1000px) {
+    .container4 {
+		width: 100%;
+	}
+
+    .covid_card {
+		width: 80%;
+	}
+}
+/* Section3 */
+.section3{
+	display:flex;
+	flex-direction:row;
+}
+
+#pic1{
+	width:700px;
+	padding-right:10px;
+	padding-top:50px;
+	
+}
+#para1{
+	padding-top:100px;
+	flex-direction:row;
+	padding-left:20px;
+	font-size:20px;
+	font-family:Copperplate Gothic Light;
+}
+#number{
+	font-size:50px;
+	padding-top:250px;
+	padding-right:100px;
+	
+}
+#number a{
+	color:red;
+	text-decoration:none;
+}
+#number a:hover{
+	color:black;
+}
+
+
+/* footer styles */
+footer {
+	position: absolute;
+	margin-top: 50px;
+	margin-bottom: 0;
+	background: #36718F;
+	height: auto;
+	width: 100%;
+	font-family: "Poppins", Arial, sans-serif;
+	padding-top: 40px;
+	color: #fff;
+}
+
+.footer-content {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-content h3 {
+	font-size: 30px;
+	font-family: monospace;
+
+}
+
+.footer-content p {
+	display: flex;
+	margin: 5px auto;
+	font-size: 14px;
+	font-family:monospace;
+}
+
+.footer_bottom {
+	margin-top: 40px;
+	width: 100%;
+	padding: 10px 0;
+	
+}
+
+.footer_bottom p {
+	text-align: center;
+	font-size: 14px;
+	word-spacing: 2px;
+	color:white;
+	text-decoration:none;
+}
+.footer_bottom p a{
+	color:black;
+	text-decoration:none;
+}
+.footer_bottom p a:hover{
+	color:#00FF00;
+	text-decoration:none;
+	
+}
+
+.footer_bottom span {
+	opacity: .5;
+}
+.logo2 img{
+	width:100px;
+	float: left;
+	height: auto;
+	background: rgba(0,0,0,0.5);
+	border-radius:50px;
+}
+.logo3 fa{
+	display: inline-flex;
+	width:50px;
+	height:50px;
+    display: inline-block;
+    padding-left: 3em;
+	
+
+}
+.logo3 i{
+	padding: 5px;
+}
+.logo3 a{
+	color:white;
+	text-decoration:none;
+}
+.logo3 a:hover{
+	color:black;
+}
+
+/* back to top button styles */
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #36718F;
+  bottom: 40px;
+  right: 50px;
+  border-radius:25px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+.gotopbtn a:hover{
+	color:white;
+}

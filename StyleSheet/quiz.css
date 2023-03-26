@@ -1,0 +1,368 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    background: #161623;
+}
+.fom{
+    visibility: hidden;
+}
+
+/*Header*/
+
+header{
+    position: absolute;
+    top: 0; left:0;right:0;
+    display:flex;
+    justify-content: space-between;
+    padding: 4px 10px;
+    background: #36718F;
+    z-index:1;
+    font-family:Poppins;
+  
+  }
+  .logo{
+   width:100px;
+       float: left;
+       height: auto;
+       background: rgba(0,0,0,0.5);
+       border-radius:50%;
+  }
+  .navbar {
+    overflow: hidden;
+    padding-top:15px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius:5px ;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Poppins;
+    margin: 0;
+    border-radius:5px ;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color:black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+/* End Of Header*/  
+
+
+/*Body Styling*/
+
+.start_btn,
+.info_box{
+    position: absolute; /* start quiz */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.info_box.activeInfo,
+.quiz_box
+{
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #102c4b;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.start_btn button:hover {       /* hover button effect */
+    background:linear-gradient(#f8f41b,rgb(29, 187, 226));
+    color: black;
+    border: 1px solid #102c4b
+   
+}
+
+.info_box{
+    width: 540px;
+    background: #fff;
+    border-radius: 5px;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.info_box .info-title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info_box .info-list{
+    padding: 15px 30px;
+}
+
+.info_box .info-list .info{
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.info_box .info-list .info span{
+    font-weight: 600;
+    color: #89f013;
+}
+.info_box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    border-top: 1px solid lightgrey;
+}
+
+.info_box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #89f013;
+    transition: all 0.3s ease;
+}
+
+.buttons .restart{
+    color: black;
+    background: #89f013;
+    text-decoration: none;
+}
+
+.buttons :hover{
+    background: white;
+    color: black;
+    
+}
+
+
+
+.submitBtn {
+	display: inline-block;
+	background-color: #007bff;
+	color: #fff;
+    margin: 20px 185px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+}
+
+.submitBtn:hover,.buttonBox a:hover {
+    color: #007bff;
+    background: #fff;
+    border: 3px solid #007bff;
+}
+
+.buttonBox a{
+        text-decoration: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 18px;
+        padding: 10px 25px;
+        margin-left: 180px;
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #36718F;
+    bottom: 40px;
+    right: 20px;
+    border-radius:25px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+  }
+
+
+/* footer styles */
+
+footer {
+    left:0;
+	position:absolute;
+	margin-top: 2150px;
+	margin-bottom:0;
+	background: #36718F;
+	height: auto;
+	width: 100%;
+	font-family: "Poppins", Arial, sans-serif;
+	padding-top: 40px;
+	padding-left:0px;
+	color: #fff;
+	z-index:-1;
+
+}
+
+.footer-content {
+    position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-content h3 {
+	font-size: 30px;
+	font-family: monospace;
+    text-align: center;
+}
+
+.footer-content p {
+	display: flex;
+	margin: 10px auto;
+	font-size: 14px;
+	font-family:monospace;
+    text-align: center;
+   left: 200px;
+}
+
+.footer_bottom {
+	margin-top: 40px;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.footer_bottom p {
+	text-align: center;
+	font-size: 14px;
+	word-spacing: 2px;
+	color:white;
+	padding-bottom:20px;
+}
+
+.footer_bottom a{
+    color:black;
+    text-decoration: none;
+  }
+.footer_bottom a:hover {
+    color: #00FF00;
+}
+
+
+
+.footer_bottom span {
+	opacity: .5;
+}
+.logo2 img{
+	width:100px;
+	float: left;
+	height: auto;
+	background: rgba(0,0,0,0.5);
+	border-radius:50px;
+}
+.logo3 fa{
+	display: inline-flex;
+	width:50px;
+	height:50px;
+    display: inline-block;
+    padding-left: 3em;
+	padding: 5px;
+	z-index:1;
+}
+ .logo3 a{
+ text-decoration:none;
+     color:white;
+ 	padding: 5px;
+ }
+ .logo3 a:hover{
+ text-decoration:none;
+ background-color:  #36718F;
+     color:black;
+ }
+
+/* end of footer style */
+
+
+
+
+
+
+
+
+
